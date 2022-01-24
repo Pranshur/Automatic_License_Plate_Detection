@@ -1,6 +1,6 @@
 import cv2
 
-plateCascade=cv2.CascadeClassifier('./haarcascades/haarcascade_russian_plate_number.xml')
+plateCascade=cv2.CascadeClassifier('./indian_license_plate.xml')
 minArea=500
 
 vid=cv2.VideoCapture(0)
